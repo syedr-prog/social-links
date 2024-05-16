@@ -1,4 +1,4 @@
 # Social Media Links
 
 
-![Social Media Links](./assets/result/Social-media-link.jpg)
+![Social Media Links](./assets/result/Social-media-links.jpg)
