@@ -1,0 +1,98 @@
+:root{
+    --Green: hsl(75, 94%, 57%);
+
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-grey: hsl(0, 0%, 12%);
+    --Button-grey: hsl(0, 0%, 18%);
+    --Off-black: hsl(0, 0%, 8%);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: var(--Off-black);
+    color: var(--White);
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+    /* border: 10px solid red; */
+    display: grid;
+    place-content: center;
+}
+.profile-card{
+    background-color: var(--Dark-grey);
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    display: grid;
+    place-content: center;
+    padding: 24px;
+    max-width: 400px;
+    margin-bottom: 100px;
+    margin-top: 20px;
+}
+
+img{
+    border-radius: 50%;
+    display: inherit;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-inline: auto;
+    margin-bottom: 1.25rem;
+}
+
+h1 {
+    /* border: 10px solid red; */
+    font-size: 1.5rem;
+    color: var(--White);
+    text-align: center;
+}
+span{
+    display: block;
+    color: var(--Green);
+    font-size: 1rem;
+    margin: .5rem 2.5rem 1rem;
+    
+}
+
+.description {
+    text-align: center;
+    color: var(--White);
+    font-weight: 600;
+    display: block;
+    font-size: 1rem;
+    margin: .5rem 0 1.5rem;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+ul{
+    display: grid;
+    gap: .5rem;
+    list-style-type: none;
+}
+
+button{
+    background-color: var(--Button-grey);
+    color: var(--White);
+    font-size: 1rem;
+    font-weight: bold;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem;
+    outline: none;
+    border-radius: .4rem;
+    transition: all .15s ease-in-out;
+}
+
+button:hover{
+    background-color: var(--Green);
+    color: var(--Button-grey);
+}
